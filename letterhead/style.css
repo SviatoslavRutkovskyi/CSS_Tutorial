@@ -39,7 +39,7 @@ h1 {
 }
 
 /* Your CSS below here */
-.box {
+body {
   background-image: url("top-image.png") top no-repeat;
   background-image: url("bottom-image.png") bottom no-repeat;
 }
