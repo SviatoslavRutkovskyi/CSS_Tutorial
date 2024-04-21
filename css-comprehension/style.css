@@ -9,11 +9,21 @@ html {
   background-color: #ccc;
 }
 /* Card container */
-.card article img {
-  max-height: 100%;
-  float: right;
+.card {
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
 }
+
 /* Header & Footer */
+.card header,
+footer {
+  height: 30em;
+  padding: 10em;
+}
 .card header {
   background-image: linear-gradient(
     to bottom,
@@ -30,12 +40,26 @@ html {
   );
   border-radius: 0 0 1.5em 1.5em;
 }
+.card footer p {
+  font-size: 15em;
+  line-height: 7.5em;
+}
 /* Main contentents */
-.card {
-  width: 35em;
-  height: 22em;
-  margin: 5em auto;
-  background-color: red;
-  border: 0.2em solid black;
-  border-radius: 1.5em;
+.card p,
+h2 {
+  margin: 0;
+}
+.card h2 {
+  font-size: 20em;
+  line-height: 5em;
+}
+.card article {
+  height: 120em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5em;
+  color: #ccc;
+}
+.card article img {
+  max-height: 100%;
+  float: right;
 }
