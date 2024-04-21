@@ -40,9 +40,21 @@ h1 {
 
 /* Your CSS below here */
 body {
-  background-image: url("top-image.png") top no-repeat;
+  /* background-image: url("top-image.png") top no-repeat; */
   /* background-image: url("bottom-image.png") bottom no-repeat; */
 }
 h1 {
   background-image: url("logo.png");
+}
+.box {
+  background-image: url("top-image.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+.box {
+  background-image: url("bottom-image.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
 }
