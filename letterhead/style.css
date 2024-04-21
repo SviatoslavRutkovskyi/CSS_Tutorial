@@ -46,8 +46,8 @@ body {
   background-repeat: no-repeat;
   background-position: top, bottom, top, bottom;
   background-size: contain;
-  border-top: 0mm red;
-  border-bottom: 0mm red;
+  border-top: 1mm red;
+  border-bottom: 1mm red;
 }
 h1 {
   background-image: url("logo.png");
