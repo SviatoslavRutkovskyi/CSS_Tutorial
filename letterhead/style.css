@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  background: white;
+  /* background: white; */
 }
 
 article {
@@ -52,5 +52,5 @@ body {
 }
 h1 {
   background-image: url("logo.png");
-  filter: drop-shadow(16px, 16px, 20px, blac);
+  filter: drop-shadow(16px, 16px, 20px, black);
 }
