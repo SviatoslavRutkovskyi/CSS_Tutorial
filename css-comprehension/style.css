@@ -8,6 +8,10 @@ html {
   font-size: 10px;
   background-color: #ccc;
 }
+p,
+h2 {
+  margin: 0;
+}
 /* Card container */
 .card {
   width: 35em;
@@ -42,21 +46,18 @@ footer {
 }
 .card footer p {
   font-size: 1.5em;
-  line-height: 0.75em;
+  /* line-height: 0.75em; */
 }
 /* Main contentents */
-p,
-h2 {
-  margin: 0;
-}
+
 .card h2 {
   font-size: 2em;
-  line-height: 0.5em;
+  /* line-height: 0.5em; */
 }
 .card article {
   height: 12em;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 0.5em;
+  padding: 2em;
   color: #ccc;
 }
 .card article img {
