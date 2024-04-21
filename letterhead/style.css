@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  background-image: url("top-image.png");
-  background-image: url("bottom-image.png");
 }
 
 html {
@@ -11,6 +9,8 @@ html {
 body {
   margin: 0;
   background: #ccc;
+  background-image: url("top-image.png");
+  background-image: url("bottom-image.png");
 }
 
 article {
