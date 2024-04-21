@@ -52,4 +52,5 @@ body {
 }
 h1 {
   background-image: url("logo.png");
+  filter: drop-shadow(16px, 16px, 20px, blac);
 }
