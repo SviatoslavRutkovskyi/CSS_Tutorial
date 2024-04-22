@@ -54,7 +54,7 @@ body {
   font-size: 10px;
   line-height: 1.5em;
   letter-spacing: 0.2em;
-  word-spacing: 2em;
+  word-spacing: 0.7em;
 }
 h1,
 h2 {
@@ -62,13 +62,13 @@ h2 {
   letter-spacing: 0.2em;
 }
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
 }
 h2 {
-  font-size: 1.6em;
+  font-size: 2em;
 }
-section + h2 {
+h2 + p {
   text-indent: 20px;
 }
 
