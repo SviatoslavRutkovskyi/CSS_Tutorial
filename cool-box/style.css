@@ -1,0 +1,14 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+.div {
+  width: 200px;
+  height: 200px;
+  position: center;
+  font-size: 1.125em;
+  background-color: red;
+  color: cyan;
+  border: 1px solid darkred;
+}
