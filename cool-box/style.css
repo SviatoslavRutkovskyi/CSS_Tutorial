@@ -6,13 +6,12 @@ html {
 .box {
   width: 200px;
   height: 200px;
-  /* position: center; */
   font-size: 1.125em;
   text-align: center;
   background-color: red;
   color: white;
   border: 1px solid darkred;
-  line-height: 175px;
+  line-height: 200px;
   box-shadow: 10px 5px 5px black, inset 3px 3px 5px white,
     inset -3px -3px 5px black;
   border-radius: 1em;
