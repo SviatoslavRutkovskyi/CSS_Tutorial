@@ -74,15 +74,15 @@ section + h2 {
 
 a:link {
   color: #a66;
+  outline: none;
 }
 a:visited {
   color: rgb(122, 67, 67);
 }
-a:focus {
-  color: rgb(187, 39, 39);
-}
+a:focus,
 a:hover {
   color: #ee0000;
+  text-decoration: none;
 }
 a:active {
   background-color: cyan;
