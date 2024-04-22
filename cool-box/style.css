@@ -3,12 +3,13 @@ html {
 }
 
 /* Your CSS below here */
-div {
+.box {
   width: 200px;
   height: 200px;
   /* position: center; */
   font-size: 1.125em;
+  text-align: center;
   background-color: red;
-  color: cyan;
+  color: white;
   border: 1px solid darkred;
 }
