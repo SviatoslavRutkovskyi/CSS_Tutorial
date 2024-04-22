@@ -15,6 +15,7 @@ img {
 }
 article img {
   float: left;
+  margin-right: 10px;
 }
 
 .logo {
