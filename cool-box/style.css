@@ -6,7 +6,7 @@ html {
 .div {
   width: 200px;
   height: 200px;
-  position: center;
+  /* position: center; */
   font-size: 1.125em;
   background-color: red;
   color: cyan;
