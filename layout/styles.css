@@ -3,6 +3,7 @@ body {
   color: #333;
   margin: 0;
   font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  padding: 10px;
 }
 main {
   column-count: 2;
@@ -54,7 +55,7 @@ nav a {
 
 .photos {
   list-style: none;
-  margin: 1;
+  margin: 1px;
   padding: 0;
   column-count: 2;
 }
