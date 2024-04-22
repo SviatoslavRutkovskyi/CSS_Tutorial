@@ -15,7 +15,7 @@ html {
   line-height: 175px;
   box-shadow: 10px 5px 5px black, inset 3px 3px 5px white,
     inset -3px -3px 5px black;
-  border-radius: 1.5em;
+  border-radius: 1em;
   background-image: linear-gradient(
     to bottom right,
     rgba(0, 0, 0, 0),
