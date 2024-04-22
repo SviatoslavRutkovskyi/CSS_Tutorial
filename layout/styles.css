@@ -57,7 +57,9 @@ nav a {
   list-style: none;
   margin: 1px;
   padding: 0;
-  column-count: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
 }
 
 .feature {
